@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotels We Provide - FLR Experts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('/photos/hotel.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 40px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      color: #ffcc99;
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 2rem;
+      color: #ffb347;
+      border-bottom: 2px solid #ffcc99;
+      display: inline-block;
+      padding-bottom: 5px;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* 5-star hotel grid */
+    .hotel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .hotel-card {
+      background-color: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .hotel-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .hotel-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hotel-card p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1.1rem;
+      padding: 15px;
+      margin: 0;
+      color: #fce8d5;
+    }
+  
+
+
+    /* Other categories */
+    ul {
+      list-style-type: circle;
+      padding-left: 20px;
+      font-size: 1rem;
+    }
+
+    li {
+      margin: 8px 0;
+      color: #eee;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.6rem; }
+    }
+
+
+  </style>
+</head>
+<body>
+  
+
+  <div class="overlay">
+    <h1>Hotels & Establishments We Serve</h1>
+
+    <h2>5-Star Hotels</h2>
+    <div class="hotel-grid">
+      <div class="hotel-card">
+        <img src="/photos/westin.jpg" alt="The Westin Mumbai Powai Lake">
+        <p>The Westin Mumbai Powai Lake</p>
+      </div>
+      <div class="hotel-card">
+        <img src="/photos/jw sahar.jpg" alt="JW Marriott Mumbai Sahar">
+        <p>JW Marriott Mumbai Sahar</p>
+      </div>
+      <div class="hotel-card">
+        <img src="/photos/lemon tree.jpg" alt="Lemon Tree Premier, Mumbai">
+        <p>Lemon Tree Premier, Mumbai</p>
+      </div>
+      <div class="hotel-card">
+        <img src="/photos/aurika.jpeg" alt="Aurika by Lemon Tree Hotels, Mumbai International Airport">
+        <p>Aurika by Lemon Tree Hotels, Mumbai International Airport</p>
+      </div>
+      <div class="hotel-card">
+        <img src="/photos/soho.jpg" alt="Soho House Mumbai">
+        <p>Soho House Mumbai</p>
+      </div>
+      <div class="hotel-card">
+        <img src="/photos/ibis.jpg" alt="Ibis Mumbai Vikhroli">
+        <p>Ibis Mumbai Vikhroli</p>
+      </div>
+      <div class="hotel-card">
+        <img src="/photos/shalimar.jpg" alt="The Shalimar Hotel:South Mumbai">
+        <p>The Shalimar Hotel:South Mumbai</p>
+      </div>
+      <div class="hotel-card">
+        <img src="/photos/peninsula-grand-274.jpeg" alt="  Hotel Peninsula Grand">
+        <p>  Hotel Peninsula Grand</p>
+      </div>
+    
+    </div>
+  
+<h2>Restaurants</h2>
+<div class="hotel-grid">
+  <div class="hotel-card">
+    <img src="/photos/olive bistro[1].jpg" alt="Olive Bar and Bistro">
+    <p>Olive Bar and Bistro</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/farzicafe.png" alt="Farzi Cafe Goregaon">
+    <p>Farzi Cafe Goregaon</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/beer cafe malad[1].jpg" alt="The Beer Cafe Malad">
+    <p>The Beer Cafe Malad</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/kofuku cafe mumbai[1].jpg" alt="Kufuku Restaurant">
+    <p>Kofuku Restaurant</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/masala-library[1].jpg" alt="Masala Library">
+    <p>Masala Library</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/papayabkc.png" alt="Papaya BKC">
+    <p>Papaya BKC</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/fatty bao andheri[1].jpg" alt="The Fatty Bao Andheri">
+    <p>The Fatty Bao Andheri</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/hardrockandheri.png" alt="Hard Rock Andheri">
+    <p>Hard Rock Andheri</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/hard rock cafe lower parel[1].jpg" alt="Hard Rock Lower Parel">
+    <p>Hard Rock Lower Parel</p>
+  </div>
+</div>
+
+<h2>Clubs & Other Establishments</h2>
+<div class="hotel-grid">
+  <div class="hotel-card">
+    <img src="/photos/xoyo club .jpeg.jpg" alt="Xoyo Club">
+    <p>Xoyo Club</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/mh4 club.jpeg.jpg" alt="MH04 Club">
+    <p>MH04 Club</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/dancing botel club.jpeg.jpg" alt="Dancing Botel Club">
+    <p>Dancing Bottle Club</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/ware house club.jpeg.jpg" alt="Warehouse Club">
+    <p>Warehouse Club</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/road house club.jpeg.jpg" alt="Road House Club">
+    <p>Road House Club</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/spencer.png" alt="Spencer Hotel">
+    <p>Spencer Hotel</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/northern tadka restaurant.jpeg.jpg" alt="Northern Tadka Restaurant">
+    <p>Northern Tadka Restaurant</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/irish house mumabi.jpeg.jpg" alt="Irish House Restaurant">
+    <p>Irish House Restaurant</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/hitchaki.jpeg.jpg" alt="Hitchki Restaurant">
+    <p>Hitchki Restaurant</p>
+  </div>
+  <div class="hotel-card">
+    <img src="/photos/asilo club Mumbai.jpeg.jpg" alt="Asilo Club">
+    <p>Asilo Club</p>
+  </div>
+</div>

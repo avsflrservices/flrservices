@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome - Excise Retailer Portal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .gov-header {
+      background: #2d9dd5;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-title {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo-title img {
+      height: 60px;
+    }
+
+    .logo-title h1 {
+      font-size: 1.4rem;
+    }
+
+    main {
+      flex: 1;
+      background: url("/photos/bg.png") no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .black-box {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+    }
+
+    .black-box h2 {
+      margin-bottom: 15px;
+      font-size: 24px;
+      color: gold;
+    }
+
+    .styled-list {
+      padding-left: 20px;
+      text-align: left;
+      list-style: decimal;
+      color: white;
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .styled-list li {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      transition: background 0.3s;
+      font-weight: bold;
+    }
+
+    .styled-list li:hover {
+      background-color: rgba(255, 215, 0, 0.2); /* light gold on hover */
+    }
+
+    .continue-btn {
+      background-color: #2d9dd5;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .continue-btn:hover {
+      background-color: #1c7bb5;
+    }
+
+    footer {
+      background: #2d9dd5;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header class="gov-header">
+    <div class="logo-title">
+      <img src="/photos/avs.png" alt="AVS Logo">
+      <div class="header-box">
+        <h1>Retailer Management System</h1>
+        <br>
+        <h4>Maharashtra State Excise</h4>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="black-box">
+      <h2>Welcome to Retailer Chain Management Book Updating Services.</h2>
+
+      <ol class="styled-list">
+        <li>Stock Audit and Variance Analysis</li>
+        <li>Online SCM Portal Updates</li>
+        <li>Daily Updating of Excise Records and Reports</li>
+        <li>Compliance with Excise Rules and Circular Updates</li>
+        <li>Periodic Excise Book Verification by Authorities</li>
+        <li>Management of Excise Stationery and Record Maintenance</li>
+      </ol>
+
+      <button class="continue-btn" onclick="window.location.href='index2.html'">Continue</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; V-SOAP | All rights reserved</p>
+  </footer>
+</body>
+</html>
